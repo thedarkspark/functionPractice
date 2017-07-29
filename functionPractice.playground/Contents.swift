@@ -2,13 +2,13 @@
 
 //basic function code
 
-//So you think these functions are basic? 
+//So you think these functions are basic?
 
 //"triple" is function name, "(..)" are the parameters
 
 func triple(value:Int) {
     
-    let result = value*3
+    let result = value * 3
     
     print("If you multiply \(value) by 3, you'll get \(result).")
     
@@ -16,7 +16,7 @@ func triple(value:Int) {
 
 //call the function while setting the parameter at the same time
 
-triple(value:10)
+triple(value:30)
 
 //same thing, this time we doing multiple arguments/parameters
 
