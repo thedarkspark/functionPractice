@@ -32,6 +32,22 @@ func multiply (firstNumber:Int, secondNumber:Int) {
 multiply(firstNumber:10, secondNumber:5)
 
 
+//Argument Labels pg. 126
+
+func sayHello (firstName: String) {
+    print("Hello, \(firstName)!")
+}
+
+sayHello(firstName:"Batman")
+
+//Multiple Arguements
+
+
+func sayGoodbye ( _ badGuy:String , _ badGirl:String , _ badDog:String ) {
+    print("Get the fuck outta here \(badGuy) and \(badGirl) you too \(badDog)")
+}
+
+sayGoodbye("Mad Max","Nina Simone","Fido")
 
 
 
