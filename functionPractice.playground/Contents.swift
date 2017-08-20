@@ -14,7 +14,41 @@ if amIHungry {
     
 }
 
-//Conditional statement above this line---------------------^
+var redPlayerHealth = 9
+
+if redPlayerHealth > 10 {
+
+    print("Give the player a health kit")
+    
+} else {
+
+    print("The player will be fine, onto the next line...of code.")
+}
+
+let bluePlayerHealth = 150;
+
+
+
+switch bluePlayerHealth {
+    
+case 1:
+    print("The player needs a whole healthkit");
+    break;
+    
+case 2:
+    print("Take a half of a healthkit")
+    break;
+    
+default:
+    print("This is only print")
+}
+
+if bluePlayerHealth < 50 {
+
+    
+}
+
+//Okay now how do I call the each case? Now loading....
 
 func triple(value:Int) {
     
