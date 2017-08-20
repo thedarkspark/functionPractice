@@ -25,28 +25,22 @@ if redPlayerHealth > 10 {
     print("The player will be fine, onto the next line...of code.")
 }
 
-let bluePlayerHealth = 150;
-
-
+let bluePlayerHealth = 70;
 
 switch bluePlayerHealth {
     
-case 1:
+case 50:
     print("The player needs a whole healthkit");
     break;
     
-case 2:
-    print("Take a half of a healthkit")
+case 100:
+    print("Take a half of a healthkit");
     break;
     
 default:
-    print("This is only print")
+    print("Your health is fine chief");
 }
 
-if bluePlayerHealth < 50 {
-
-    
-}
 
 //Okay now how do I call the each case? Now loading....
 
