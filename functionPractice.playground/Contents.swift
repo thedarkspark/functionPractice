@@ -2,9 +2,17 @@
 
 //basic function code
 
-//So you think these functions are basic?
+var amIHungry = true
 
-//"triple" is function name, "(..)" are the parameters
+if amIHungry {
+
+    print("Then make you a sandwich")
+    
+} else {
+
+    print("Well you have to make sure its the best thing")
+    
+}
 
 func triple(value:Int) {
     
@@ -50,6 +58,7 @@ func sayGoodbye ( _ badGuy:String , _ badGirl:String , _ badDog:String ) {
 sayGoodbye("Mad Max","Nina Simone","Fido")
 
 //I had to push at least one commit. lol
+
 
 
 
