@@ -10,7 +10,7 @@ if amIHungry {
     
 } else {
 
-    print("Well you have to make sure its the best thing")
+    print("Well you have to eat sometime")
     
 }
 
