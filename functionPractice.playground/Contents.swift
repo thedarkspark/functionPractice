@@ -2,7 +2,7 @@
 
 //basic function code
 
-var amIHungry = true
+var amIHungry = false
 
 if amIHungry {
 
@@ -22,7 +22,7 @@ if redPlayerHealth > 10 {
     
 } else {
 
-    print("The player will be fine, onto the next line...of code.")
+    print("You will live to fight another day")
 }
 
 let bluePlayerHealth = 70;
@@ -41,7 +41,14 @@ default:
     print("Your health is fine chief");
 }
 
+//ok i feel like im finna break something but here it goes..
 
+
+bluePlayerHealth
+
+bluePlayerHealth == 100
+
+//I think you have to use an "if" statement here somewhere
 //Okay now how do I call the each case? Now loading....
 
 func triple(value:Int) {
